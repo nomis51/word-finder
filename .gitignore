@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+app-dotnet/.idea
+app-dotnet/WordFinder.Shared/bin
+app-dotnet/WordFinder.Shared/obj
+app-dotnet/WordFinder/bin
+app-dotnet/WordFinder/obj
+app-dotnet/WordFinder/obj
+app-dotnet/WordFinder/obj

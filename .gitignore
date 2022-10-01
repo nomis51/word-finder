@@ -114,3 +114,5 @@ app/WordFinder/bin
 app/WordFinder/obj
 app/WordFinder.Shared/obj
 app/WordFinder.Shared/bin
+app-rust/.idea
+app-rust/target

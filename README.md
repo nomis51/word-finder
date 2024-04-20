@@ -1,13 +1,14 @@
 # word-finder
-A word finder for french words. Could be adapt to use other languages.
+A word finder for french and english words. Could be adapt to use other languages.
 
 # Requirements
-- .NET 6
+- Node.js
 
 # How to use
 - Run the app
 - Input the letters you have
 - Input either the length of the word you need to find OR a word template
+- Pick a language
 
 Examples : 
 

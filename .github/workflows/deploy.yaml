@@ -19,7 +19,12 @@ jobs:
         with:
           node-version: 20
 
+      - name: Install dependencies
+        working-directory: './src'
+        run: yarn
+
       - name: Build project
+        working-directory: './src'
         run: yarn build
 
       - name: Upload production-ready build files

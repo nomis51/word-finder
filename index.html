@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon"
+        type="image/svg+xml"
+        href="/vite.svg" />
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+  <title>Word finder</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" crossorigin src="/assets/index-DADKdtyC.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-UnvJm5Yi.css">
+</head>
+
+<body class="flex flex-1 flex-col  gap-2 bg-neutral-900 h-full w-full p-2 text-white">
+  <div class="flex flex-col w-full p-2 rounded-md bg-neutral-800 gap-2">
+    <div class="flex flex-1 gap-2 items-start">
+      <div class="flex flex-1 flex-col gap-1">
+        <label class="font-bold">Enter the letters :</label>
+        <input id="input-letters"
+               placeholder="e.g. patcer"
+               class="rounded-md bg-neutral-700 p-1"
+               type="text">
+      </div>
+      <div class="flex flex-1 flex-col gap-1">
+        <label class="font-bold">Enter the word length :</label>
+        <input id="input-length"
+               placeholder="e.g. 6"
+               class="rounded-md bg-neutral-700 p-1"
+               type="text">
+      </div>
+      <div class="flex flex-1 flex-col gap-1">
+        <label class="font-bold">Enter the word template (optional) :</label>
+        <input id="input-template"
+               placeholder="e.g. -ar-t-"
+               class="rounded-md bg-neutral-700 p-1"
+               type="text">
+      </div>
+      <div class="flex flex-1 flex-col gap-1">
+        <label class="font-bold">Language :</label>
+        <select id="select-language"
+                class="rounded-md bg-neutral-700 p-1">
+          <option selected="selected"
+                  value="french">French</option>
+          <option value="english">English</option>
+        </select>
+      </div>
+    </div>
+    <button id="button-search"
+            class="self-start bg-neutral-500 px-2 py-1 rounded-md hover:bg-neutral-600 border-neutral-600 shadow-md">Search
+      words</button>
+  </div>
+  <div class="flex flex-col h-full w-full p-2 rounded-md bg-neutral-800 gap-2">
+    <div class="flex flex-col">
+      <h3 id="text-status"
+          class="font-bold">Possible words :</h3>
+      <ul id="words-list"
+          class="flex flex-col gap-1 overflow-y-auto"></ul>
+    </div>
+  </div>
+</body>
+
+</html>

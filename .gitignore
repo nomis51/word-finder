@@ -114,3 +114,5 @@ app/WordFinder/bin
 app/WordFinder/obj
 app/WordFinder.Shared/obj
 app/WordFinder.Shared/bin
+.old/app/WordFinder.Shared/obj
+.old/app/WordFinder/obj

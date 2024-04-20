@@ -1,7 +1,7 @@
 import { FrenchWords } from './french';
 import { EnglishWords } from './english';
 
-export const Words: Record<'french' | 'english', any> = {
+export const Words: Record<string, any> = {
 	'french': FrenchWords,
-    'english': EnglishWords
+	'english': EnglishWords
 }
